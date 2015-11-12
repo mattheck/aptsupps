@@ -1039,7 +1039,7 @@ input[type="button"]:hover,
 }
 
 .home-product-slider #slide-248-layer-16 {
-	color: #1c1c1c;
+	color: #1c1c1c !important;
 }
 
 .row .home-product-slider   .col.section-title h2 {
