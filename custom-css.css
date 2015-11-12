@@ -30,8 +30,8 @@
 	}
 	
 	#home-choose-goal,
-																																												.home-page-tab-wrap,
-																																												.home-page-slider {
+																																																			.home-page-tab-wrap,
+																																																			.home-page-slider {
 		display: none !important;
 	}
 	
@@ -97,8 +97,8 @@
 	}
 	
 	form.variations_form div.quantity input.minus,
-																																												form.variations_form div.quantity input.qty,
-																																												form.variations_form div.quantity input.plus {
+																																																			form.variations_form div.quantity input.qty,
+																																																			form.variations_form div.quantity input.plus {
 		height: 60px !important;
 	}
 	
@@ -291,8 +291,8 @@
 
 @media only screen and (min-width: 401px) {
 	.woocommerce div.product form.variations_form,
-																																													.woocommerce div.product form.cart::after, 
-																																													.woocommerce div.product form.cart::before {
+																																																				.woocommerce div.product form.cart::after, 
+																																																				.woocommerce div.product form.cart::before {
 		display: inline-flex !important;
 		margin-bottom: 0 !important;
 	}
@@ -303,7 +303,7 @@
 	}
 	
 	.creatine-illustration-left,
-																																												.creatine-illustration-right {
+																																																			.creatine-illustration-right {
 		width: 47% !important;
 	}
 	
@@ -374,8 +374,8 @@
 	}
 	
 	form.variations_form div.quantity input.minus,
-																																												form.variations_form div.quantity input.qty,
-																																												form.variations_form div.quantity input.plus {
+																																																			form.variations_form div.quantity input.qty,
+																																																			form.variations_form div.quantity input.plus {
 		height: 60px !important;
 	}
 	
@@ -422,9 +422,9 @@
 	}
 	
 	#header-outer > div > div.cart-menu-wrap div.cart-icon-wrap,
-																																												#top > div > div > div.col.span_3,
-																																												#search-btn > div > a > span,
-																																												header#top nav > ul > li > a {
+																																																			#top > div > div > div.col.span_3,
+																																																			#search-btn > div > a > span,
+																																																			header#top nav > ul > li > a {
 		-webkit-transform: skew(15deg) !important;
 		-moz-transform: skew(15deg) !important;
 		-o-transform: skew(15deg) !important;
@@ -1030,16 +1030,45 @@ input[type="button"]:hover,
 }
 
 /** Product Slider **/
-.home-product-slider #slide-248-layer-16 a {
+.home-product-slider #slide-248-layer-16 a,
+.home-product-slider #slide-943-layer-16 a,
+.home-product-slider #slide-942-layer-16 a,
+.home-product-slider #slide-941-layer-16 a,
+.home-product-slider #slide-940-layer-16 a {
 	display: none;
 }
 
-.home-product-slider #slide-248-layer-16 a:nth-child(4) {
+.home-product-slider #slide-248-layer-16 a:nth-child(4),
+.home-product-slider #slide-943-layer-16 a:nth-child(4),
+.home-product-slider #slide-942-layer-16 a:nth-child(3),
+.home-product-slider #slide-941-layer-16 a:nth-child(5),
+.home-product-slider #slide-940-layer-16 a:nth-child(2) {
 	display: inline;
 }
 
-.home-product-slider #slide-248-layer-16 {
+.home-product-slider .slider-goal-display {
 	color: #1c1c1c !important;
+}
+
+/* temp center */
+.home-product-slider #slide-248-layer-16 {
+	margin-left: -23px;
+}
+
+.home-product-slider #slide-940-layer-16 {
+	margin-left: 14px;
+}
+
+.home-product-slider #slide-941-layer-16 {
+	margin-left: -41px;
+}
+
+.home-product-slider #slide-942-layer-16 {
+	margin-left: -36px;
+}
+
+.home-product-slider #slide-943-layer-16 {
+	margin-left: -29px;
 }
 
 .row .home-product-slider   .col.section-title h2 {
