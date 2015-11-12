@@ -1,0 +1,888 @@
+/*
+Welcome to Custom CSS!
+CSS (Cascading Style Sheets) is a kind of code that tells the browser how
+to render a web page. You may delete these comments and get started with
+your customizations.
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the theme CSS
+rules. Just write here what you want to change, you don't need to copy all
+your theme's stylesheet content.
+*/
+/*** MEDIA CALLS ***/
+@media only screen and (max-width: 1355px) and (min-width: 1001px) {
+	div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1.product_title {
+		font-size: 4.5em !important;
+		font-size: 45px !important;
+		margin-top: 11% !important;
+		margin-bottom: 6% !important;
+	}
+	
+	div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1 > span.product_title_second {
+		font-size: 35px !important;
+	}
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 1px) {
+	.single-product-main-image {
+		margin-bottom: 0 !important;
+	}
+	
+	.postid-943 #single-meta {
+		padding-bottom: 19% !important;
+	}
+	
+	.postid-942 div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1.product_title {
+		font-size: 30px !important;
+		margin: 0 !important;
+	}
+	
+	.postid-941 div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1.product_title {
+		font-size: 30px !important;
+		margin-bottom: 12% !important;
+	}
+	
+	.postid-248 div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1.product_title {
+		font-size: 30px !important;
+		margin-bottom: 12% !important;
+	}
+	
+	.postid-1328 div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1.product_title {
+		font-size: 30px !important;
+		margin-bottom: 12% !important;
+	}
+	
+	.postid-940 div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1.product_title {
+		font-size: 30px !important;
+		margin-bottom: 0 !important;
+	}
+	
+	.postid-943 div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1.product_title {
+		font-size: 30px !important;
+		margin-bottom: 1% !important;
+	}
+	
+	div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1 > span.product_title_second.ptg {
+		font-size: 38px !important;
+	}
+	
+	div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1 > span.product_title_second.ptb {
+		font-size: 38px !important;
+	}
+	
+	div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1 > span.product_title_second.ptl {
+		font-size: 38px !important;
+	}
+	
+	div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1 > span.product_title_second.pttd {
+		font-size: 38px !important;
+	}
+	
+	div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1 > span.product_title_second.ptc {
+		font-size: 38px !important;
+	}
+	
+	div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1 > span.product_title_second.pts {
+		font-size: 38px !important;
+	}
+	
+	#single-meta {
+		margin-top: 0 !important;
+	}
+	
+	@media only screen and (max-width: 600px) and (min-width: 1px) {
+	#try-product > div.col.span_12.dark > div > div > div > div > p {
+		font-size: 12px !important;
+	}
+	
+	
+	#footer-outer .row {
+		padding: 4% 0 0 !important;
+	}
+	
+	#footer-widgets > div > div > div:nth-child(2) {
+		padding-left: 0 !important;
+	}
+	
+	#footer-widgets .container .col {
+		margin-bottom: 7% !important;
+	}
+}
+
+/** iphone 6 375px**/
+@media only screen and (max-width: 400px) and (min-width: 1px) {
+	#home-page-articles .wpb_wrapper div {
+		margin-bottom: -7px;
+	
+	}
+}
+
+@-moz-document url-prefix() {
+	width:591px;
+}
+
+/*** HOME (.home) ***/
+.ascend .container-wrap, .ascend .project-title, body .vc_text_separator div, .carousel-wrap[data-full-width="true"] .carousel-heading, .carousel-wrap span.left-border, .carousel-wrap span.right-border, #page-header-wrap, .page-header-no-bg, #full_width_portfolio .project-title.parallax-effect, .portfolio-items .col, .page-template-template-portfolio-php .portfolio-items .col.span_3, .page-template-template-portfolio-php .portfolio-items .col.span_4 {
+	background-color: #fff;
+}
+
+body {
+	color: #393836;
+	font-family: proxima-nova;
+	font-size: 15px;
+	line-height: 23px;
+}
+
+header#top nav,
+header#top nav > ul > li > a {
+	font-family: proxima-nova;
+	font-size: 14px !important;
+	font-weight: 800;
+}
+
+.woocommerce-info,
+.woocommerce-message {
+	color: #393836 !important;
+	background-color: #000 !important;
+}
+
+.home-img-1,
+.home-img-2,
+.home-img-3 {
+	border: 7px solid #dfdfdf;
+	width: 27%;
+}
+
+.home #single-meta {
+	margin-top: 1.7%;
+	float: left;
+	margin-left: 10%;
+}
+
+.home .count {
+	font-size: 20px;
+}
+
+/** Header (#header-outer) **/
+#header-outer.dark-text #logo > img.default-logo,
+#header-outer.dark-text #logo > img.retina-logo {
+	content: url("http://www.aptsupps.com/wp-content/uploads/2015/03/apt-logo-red.svg");
+}
+
+/** Slider (#top-slider) **/
+/** Product Slider **/
+.home-page-list {
+	margin: 0;
+}
+
+.home-page-tab {
+	width: 20%;
+	height: 33px;
+	display: block;
+	float: left;
+	text-align: center;
+	color: #767676;
+	font-weight: 600;
+	cursor: pointer;
+	list-style-type: none !important;
+	list-style-position: inside !important;
+}
+
+.home-page-tab:hover {
+	color: #d50000;
+}
+
+.home-page-tab.active {
+	color: #d50000;
+	background: url('http://www.aptsupps.com/wp-content/uploads/2015/04/caret-apt.svg') center bottom no-repeat;
+	padding-bottom: 13px;
+}
+
+.home-page-tab-wrap {
+	border-bottom: 1px solid #dfdfdf;
+}
+
+/** Footer (#footer-outer) **/
+#footer-widgets > div > div > div:nth-child(2) {
+	padding-left: 4%;
+}
+
+#searchsubmit {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin: 0 !important;
+	background-color: #a3101a !important;
+	padding: 10px 11px 11px 10px;
+	line-height: 24px;
+	opacity: .9;
+	transition: opacity .2s linear 0;
+	-moz-transition: opacity .2s linear 0;
+	-webkit-transition: opacity .2s linear 0;
+	-o-transition: opacity .2s linear 0;
+	border-radius: 0;
+}
+
+#copyright > div > div.col.span_5 > p {
+	width: 165%;
+}
+
+.product-categories {
+	font-size: 13px;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li a.remove, .woocommerce.widget_shopping_cart .cart_list li a.remove {
+	width: 20px !important;
+	border: 1px solid #d50000 !important;
+}
+
+/*** PRODUCT PAGE (.single-product) ***/
+/** Product Image (.single-product-main-image) **/
+span.onsale {
+	display: none;
+}
+
+div.span_5.col.single-product-main-image {
+	margin-top: 1%;
+}
+
+div.span_5.col.single-product-main-image > div > a > img {
+	margin-top: 5%;
+	width: auto;
+	height: auto;
+}
+
+/** Product Summary (.single-product-summary) **/
+.woocommerce.single-product #single-meta {
+	right: 390px;
+	top: 175px !important;
+	position: absolute !important;
+	left: auto;
+}
+
+.single-product-summary .star-rating {
+	border-right: 1px solid #7f7f7f;
+	padding-right: 77px;
+	margin-right: 9px !important;
+}
+
+.single-product-summary .woocommerce-review-link {
+	line-height: 30px;
+}
+
+.single-product-summary .woocommerce-product-rating {
+	font-size: 13px;
+}
+
+.count {
+	font-size: 13px !important;
+	color: #D50000;
+}
+
+a.facebook-share i,
+.icon-facebook {
+	height: 16px !important;
+}
+
+a.twitter-share i,
+.icon-twitter {
+	height: 20px !important;
+}
+
+a.google-plus-share i,
+.icon-google-plus {
+	height: 14px !important;
+}
+
+.nectar-social > * {
+	border-right: 1px solid #7f7f7f;
+}
+
+del {
+	font-size: 26px !important;
+	opacity: 1 !important;
+}
+
+/* Variations Box Switch */
+.woocommerce form.variations_form.cart {
+	border: 10px solid rgba(0,0,0,0.3);
+	border-radius: 0;
+	width: 565px;
+	height: 86px;
+}
+
+#product-940 > div.span_7.col.col_last.single-product-summary > div > form {
+	width: 584px !important;
+}
+
+.woocommerce table.variations {
+	background-color: #f1f1f1 !important;
+	border-radius: 0;
+	margin-left: -1px !important;
+}
+
+.woocommerce div.product form.cart table td.value:nth-child(2) {
+	padding-left: 12px;
+}
+
+.woocommerce div.single_variation_wrap {
+	width: 240px;
+	border-radius: 0;
+}
+
+.woocommerce div.quantity.buttons_added {
+	background-color: #FFF;
+	padding: 10px;
+	margin: 0 !important;
+}
+
+.woocommerce button.single_add_to_cart_button.button.alt {
+	font-weight: 800 !important;
+	text-transform: uppercase;
+	padding: 27px 10px !important;
+	border-radius: 0 !important;
+	margin: 0 !important;
+}
+
+/* End Variations Box Switch */
+.woocommerce div.product form.variations_form,
+.woocommerce div.product form.cart::after, .woocommerce div.product form.cart::before {
+	display: flex !important;
+	margin-bottom: 0 !important;
+}
+
+#pa_flavor,
+#pa_servings {
+	background-color: #f8f8f8;
+	border: 1px solid #b3b3b3 !important;
+	box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+	border-radius: 0;
+	height: 46px;
+}
+
+.variations .label {
+	display: none !important;
+}
+
+form.variations_form div.quantity {
+	padding-top: 10px;
+}
+
+form.variations_form div.quantity input.minus {
+	border-radius: 5px 0 0 5px !important;
+}
+
+form.variations_form div.quantity input.plus {
+	border-radius: 0 5px 5px 0 !important;
+}
+
+.woocommerce form.variations_form div.variations_button > button {
+	margin-top: 10px !important;
+	border-radius: 5px !important;
+	margin-left: 6px !important;
+	background-color: #d50000 !important;
+	padding: 16.5px !important;
+}
+
+.single-product .container-wrap {
+	background-image: url('http://www.aptsupps.com/wp-content/uploads/2015/03/bg-split-px.jpg');
+	background-repeat: repeat-x;
+}
+
+.postid-940.single-product .container-wrap {
+	background-image: url('http://www.aptsupps.com/wp-content/uploads/2015/04/creatine-bg-top-color.jpg');
+	background-position: 63% top;
+	background-repeat: no-repeat;
+}
+
+.postid-941.single-product .container-wrap {
+	background-image: url('http://www.aptsupps.com/wp-content/uploads/2015/04/bcaa-bg-top-color1.jpg');
+	background-position: 81% top;
+	background-repeat: no-repeat;
+}
+
+.postid-1328.single-product .container-wrap {
+	background-image: url('http://www.aptsupps.com/wp-content/uploads/2015/04/testd12-bg-top-color.jpg');
+	background-position: 58% top;
+	background-repeat: no-repeat;
+}
+
+.postid-248.single-product .container-wrap {
+	background-image: url('http://www.aptsupps.com/wp-content/uploads/2015/04/superset-bg-top-color1.jpg');
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.postid-942.single-product .container-wrap {
+	background-image: url('http://www.aptsupps.com/wp-content/uploads/2015/04/glutamine-bg-top-color.jpg');
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.postid-943.single-product .container-wrap {
+	background-image: url('http://www.aptsupps.com/wp-content/uploads/2015/04/lcarnitine_Top_Master.jpg');
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.single-product .price {
+	display: -webkit-box;
+/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+/* TWEENER - IE 10 */
+	display: -webkit-flex;
+/* NEW - Chrome */
+	display: flex;
+}
+
+.single-product .price ins {
+	padding-left: 8px;
+}
+
+.woocommerce div.product_meta {
+	margin-bottom: -13px;
+	margin-top: 80px;
+}
+
+span.sku_wrapper,
+span.tagged_as {
+	display: none;
+}
+
+.woocommerce div.product_meta > span.posted_in > a {
+	font-family: proxima-nova;
+	font-weight: 600;
+	color: #939393;
+	letter-spacing: -.5px;
+	text-transform: uppercase;
+	font-size: 22px;
+	line-height: 36px;
+}
+
+div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1.product_title {
+	text-transform: lowercase;
+	font-size: 4.3em;
+	font-size: 55px;
+	text-align: left;
+	color: #FFF;
+	line-height: 1.2em;
+	margin-top: 0;
+	font-family: gunship;
+	padding-right: 0 !important;
+	width: 125%;
+	margin-bottom: 0;
+}
+
+div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1 > span.product_title_second {
+	text-transform: lowercase;
+	color: #d50000;
+	font-size: 50px;
+	position: relative;
+	font-style: italic;
+	margin-left: -2%;
+}
+
+.postid-248 div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1 > span.product_title_second {
+	margin-left: 0;
+}
+
+#product-1291 > div.span_7.col.col_last.single-product-summary > div.summary.entry-summary > h1 {
+	margin-bottom: -3% !important;
+}
+
+.summary ul li:before {
+	font-family: icomoon;
+	content: "\ea10";
+	color: #ce2129;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.summary ul li {
+	list-style-position: inside;
+	list-style: none;
+	position: relative;
+	margin: 0 0 6px;
+	font-size: 20px;
+	line-height: 20px;
+	color: #FFF;
+}
+
+.woocommerce div.product p.price del {
+	font-size: 26px !important;
+	opacity: 1 !important;
+	color: #7d7d7d;
+}
+
+.woocommerce p.price del span.amount {
+	color: #d50000;
+}
+
+.woocommerce p.price ins span.amount {
+	color: #fff;
+}
+
+div.variations_button > button {
+	border-radius: 5px !important;
+}
+
+/** Product Expectations (.creatine-expect) **/
+.creatine-expect h2 {
+	text-align: left;
+	font-size: 22px;
+	margin-top: 0;
+	margin-bottom: 18px;
+	letter-spacing: 0;
+	font-family: proxima-nova;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #393836;
+}
+
+.creatine-expect li,
+.creatine-expect ul {
+	text-align: left;
+	line-height: 23px;
+	padding-bottom: 0;
+	color: #393836;
+}
+
+.creatine-expect p {
+	text-align: justify;
+	line-height: 23px;
+	margin-bottom: 25px !important;
+	margin-top: 10px !important;
+	padding-bottom: 0;
+	color: #393836;
+}
+
+.postid-941 .creatine-expect > div.col.span_12.dark > div.col.span_6.col_last > span > div > img {
+	margin-left: 6%;
+	margin-top: 7%;
+}
+
+.toggle.accent-color {
+	background-color: #d50000;
+}
+
+.toggles h3 a,
+.toggle h3 a i {
+	color: #fff;
+}
+
+.creatine-expect > div.col.span_12 > div:nth-child(6) > div > img {
+	padding-right: 0 !important;
+}
+
+.creatine-expect > div.col.span_12 > div:nth-child(6) {
+	margin-right: 0 !important;
+}
+
+.creatine-expect > div.col.span_12 > div:nth-child(7) > div > img {
+	padding-left: 0 !important;
+}
+
+.toggles img {
+	padding: 2% 15%;
+}
+
+/** Product Milestones (.creatine-milestone) **/
+.creatine-milestone .row-bg {
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.07);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.07);
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.07);
+	z-index: 1;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	box-shadow: inset 0 0 1em #111;
+}
+
+.postid-941 .creatine-milestone .span_3 {
+	width: 17.5%;
+}
+
+.nectar-milestone .subject {
+	padding-top: 1.5%;
+}
+
+/** Product Description (.creatine-description) **/
+.creatine-description h2 {
+	text-align: left;
+	font-size: 22px;
+	margin-top: 0;
+	margin-bottom: 18px;
+	letter-spacing: 0;
+	font-family: proxima-nova;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #393836;
+}
+
+.creatine-description p {
+	text-align: justify;
+	line-height: 23px;
+	margin-bottom: 25px !important;
+	margin-top: 10px !important;
+	padding-bottom: 0;
+	color: #393836;
+}
+
+.postid-940 .creatine-description > div.col.span_12 > div.col.span_6.col_last > div > img {
+	padding: 0 !important;
+	margin: 0 !important;
+	right: -40px !important;
+}
+
+.postid-940 .creatine-description > div.col.span_12 > div.col.span_6.col_last {
+	margin-bottom: 0 !important;
+	width: 27% !important;
+}
+
+.postid-940 > div.col.span_12 > col span_6 {
+	margin-left: 14% !important;
+	margin-right: 0 !important;
+	padding: 0 !important;
+}
+
+.creatine-description > div.col.span_12 > div.col.span_3.one-fourths.right-edge {
+	width: 55%;
+}
+
+.creatine-description li,
+.creatine-expect ol {
+	text-align: left;
+	line-height: 23px;
+	padding-bottom: 0;
+	color: #393836;
+}
+
+/** Product Mini Articles (.creatine-work) **/
+.creatine-work h2 {
+	text-align: center;
+	font-size: 45px;
+	margin-top: 0;
+	margin-bottom: 18px;
+	letter-spacing: 0;
+	font-family: proxima-nova;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #393836;
+}
+
+.creatine-work p {
+	text-align: center;
+	line-height: 23px;
+	margin-bottom: 25px !important;
+	margin-top: 10px !important;
+	padding-bottom: 0;
+	color: #393836;
+}
+
+.creatine-work {
+	background-image: url('http://www.aptsupps.com/wp-content/uploads/2015/02/gradient-top-to-bottom.svg');
+	background-repeat: round;
+}
+
+.postid-940  .creatine-work > div.col.span_12 > div:nth-child(4) > img {
+	width: 57%;
+	margin-bottom: 4% !important;
+}
+
+.postid-940 .creatine-work > div.col.span_12 > div:nth-child(15) > img {
+	margin-top: 6%;
+	margin-left: -3%;
+}
+
+.creatine-work > div.col.span_12 > h2:nth-child(6) {
+	font-size: 45px;
+	margin-bottom: 0 !important;
+}
+
+.creatine-work h2.atp-headline {
+	padding: 2% inherit;
+	font-size: 60px;
+	font-weight: 700;
+	font-family: matt-b;
+	color: #d50000;
+}
+
+.creatine-work h2.adp-headline {
+	padding: 5% inherit 3%;
+}
+
+.creatine-work > div.col.span_12 > div:nth-child(9) > img {
+	width: 70%;
+	margin-bottom: 3% !important;
+}
+
+.creatine-work > div.col.span_12 > div:nth-child(12) > img {
+	float: left;
+	width: 12%;
+	margin-right: 1%;
+	margin-left: 13%;
+}
+
+.creatine-work > div.col.span_12 > p:nth-child(14) {
+	margin-top: 6% !important;
+	width: 88%;
+}
+
+.creatine-illustration-left,
+.creatine-illustration-right {
+	width: 47% !important;
+}
+
+.creatine-illustration-divider {
+	width: 1% !important;
+}
+
+/** Product Parallax Banner (.creatine-parallax) **/
+.creatine-parallax {
+	background-color: black;
+}
+
+/** Product Guarantee (.creatine-guarantee) **/
+.creatine-guarantee {
+	border-bottom: 1px solid #ededed;
+}
+
+.creatine-guarantee h2 {
+	font-size: 14px;
+	margin-top: 1.5%;
+	margin-bottom: 0;
+	letter-spacing: 0;
+	font-weight: bold;
+	color: #9f9f9f;
+	text-align: left;
+}
+
+.creatine-guarantee p {
+	font-size: 12px;
+	line-height: 23px;
+	margin-bottom: 25px !important;
+	margin-top: 3px !important;
+	padding-bottom: 0;
+	color: #9f9f9f;
+}
+
+.creatine-guarantee > div.col.span_12 > div > img {
+	margin: 0 auto;
+}
+
+.creatine-ghost > div.col.span_12.light {
+	text-align: center;
+}
+
+.creatine-ghost a {
+	color: white;
+}
+
+.get-started {
+	font-size: 55px;
+	font-family: proxima-nova;
+	font-weight: bolder;
+}
+
+.buy-it-now-ghost {
+	font-size: 50px;
+	font-family: proxima-nova;
+	font-weight: bolder;
+	border: 4px solid #fff;
+	padding: 15px 25px;
+	margin-left: 2%;
+	line-height: 4.5;
+}
+
+/** Related Products (.related) **/
+.related > h2 {
+	font-size: 22px !important;
+	margin-top: 0;
+	margin-bottom: 37px;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #393836;
+}
+
+/*** Become A Distrubtor ***/
+#wpcf7-f990-p28-o1 > form > div.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {
+	margin: 26.7em .5em 1em 0;
+	padding: .8em 1em;
+}
+
+/*** CART ***/
+.woocommerce-cart form div.col.span_8 {
+	background: url(http://www.aptsupps.com/wp-content/uploads/2015/03/gradient-right-to-left.png);
+	background-repeat: repeat-y;
+	background-position: right;
+	background-size: contain;
+}
+
+/*** ABOUT ***/
+.about_seperator {
+	font-size: 45px;
+}
+
+/*** Blog ***/
+.blog article,
+.archive article {
+	border: 2px solid #d50000;
+}
+
+/*** FONTS ***/
+@font-face {
+	font-family: gunship;
+	src: local('gun4f.ttf'), url("fonts/gun4f.ttf") format("truetype");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: local('icomoon.eot'), url('fonts/icomoon.eot') format('embedded-opentype'), url('fonts/icomoon.woff') format('woff'), url('fonts/icomoon.ttf') format('truetype'), url('fonts/icomoon.svg') format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*** ALEX BURTON CSS ADDITIONS ***/
+.red-tape {
+	border-left: solid 6px #ce2129;
+	color: #ce2129;
+	background-color: #e4e4e4;
+	margin-bottom: 2%;
+	padding-left: 2%;
+}
+
+.h3-hover:hover {
+	background-color: #ce2129;
+	color: #fff;
+	padding: 0 0 0 1%;
+}
+
+sup {
+	font-weight: 700;
+}
+
+sup:hover {
+	font-weight: 700;
+	color: #fff;
+	background-color: #ce2129;
+	padding: 0 4px;
+}
+
+/*** Sammy Selection Red Highlight Effect ***/
+::-moz-selection {
+	background-color: #d50000;
+	color: #fff;
+}
+
+::selection {
+	background-color: #d50000;
+	color: #fff;
+}

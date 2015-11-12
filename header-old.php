@@ -1,8 +1,7 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-<script src="//use.typekit.net/gal7bar.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
+
 <!-- Meta Tags -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
@@ -24,7 +23,7 @@
 <title> <?php wp_title("|",true, 'right'); ?> <?php if (!defined('WPSEO_VERSION')) { bloginfo('name'); } ?></title>
 
 <?php wp_head(); ?>
-<a name="Top"></a>
+
 </head>
 
 <?php
@@ -96,6 +95,7 @@ if($using_secondary == 'header_with_secondary') { ?>
 						<?php  if(!empty($options['use-flickr-icon-header']) && $options['use-flickr-icon-header'] == 1) { ?> <li><a target="_blank" href="<?php echo $options['flickr-url']; ?>"><i class="icon-flickr"></i></a></li> <?php } ?>
 						<?php  if(!empty($options['use-spotify-icon-header']) && $options['use-spotify-icon-header'] == 1) { ?> <li><a target="_blank" href="<?php echo $options['spotify-url']; ?>"><i class="icon-salient-spotify"></i></a></li> <?php } ?>
 						<?php  if(!empty($options['use-vk-icon-header']) && $options['use-vk-icon-header'] == 1) { ?> <li><a target="_blank" href="<?php echo $options['vk-url']; ?>"><i class="icon-vk"></i></a></li> <?php } ?>
+						<?php  if(!empty($options['use-vine-icon-header']) && $options['use-vine-icon-header'] == 1) { ?> <li><a target="_blank" href="<?php echo $options['vine-url']; ?>"><i class="fa-vine"></i></a></li> <?php } ?>
 					</ul>
 				<?php } ?>
 				
@@ -292,7 +292,7 @@ if($using_secondary == 'header_with_secondary') { ?>
 	
 </div>
 
+
 <div id="ajax-loading-screen" data-method="<?php echo (!empty($options['transition-method'])) ? $options['transition-method'] : 'ajax' ; ?>"><span class="loading-icon <?php echo (!empty($options['loading-image-animation']) && !empty($options['loading-image'])) ? $options['loading-image-animation'] : null; ?>"> <?php if(empty($options['loading-image'])) { if(!empty($options['theme-skin']) && $options['theme-skin'] == 'ascend') { echo '<span class="default-loading-icon spin"></span>'; } else { echo '<span class="default-skin-loading-icon"></span>'; } } ?> </span></div>
 <div id="ajax-content-wrap">
 
-<script src="//load.sumome.com/" data-sumo-site-id="9ea25f09bb2c4600a08ceb9c77a68a78f97fd0200f7cab3cd3ec71039baa6ad3" async="async"></script>
