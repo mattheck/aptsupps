@@ -30,8 +30,8 @@
 	}
 	
 	#home-choose-goal,
-																																																			.home-page-tab-wrap,
-																																																			.home-page-slider {
+																																																																.home-page-tab-wrap,
+																																																																.home-page-slider {
 		display: none !important;
 	}
 	
@@ -97,8 +97,8 @@
 	}
 	
 	form.variations_form div.quantity input.minus,
-																																																			form.variations_form div.quantity input.qty,
-																																																			form.variations_form div.quantity input.plus {
+																																																																form.variations_form div.quantity input.qty,
+																																																																form.variations_form div.quantity input.plus {
 		height: 60px !important;
 	}
 	
@@ -291,8 +291,8 @@
 
 @media only screen and (min-width: 401px) {
 	.woocommerce div.product form.variations_form,
-																																																				.woocommerce div.product form.cart::after, 
-																																																				.woocommerce div.product form.cart::before {
+																																																																	.woocommerce div.product form.cart::after, 
+																																																																	.woocommerce div.product form.cart::before {
 		display: inline-flex !important;
 		margin-bottom: 0 !important;
 	}
@@ -303,7 +303,7 @@
 	}
 	
 	.creatine-illustration-left,
-																																																			.creatine-illustration-right {
+																																																																.creatine-illustration-right {
 		width: 47% !important;
 	}
 	
@@ -374,8 +374,8 @@
 	}
 	
 	form.variations_form div.quantity input.minus,
-																																																			form.variations_form div.quantity input.qty,
-																																																			form.variations_form div.quantity input.plus {
+																																																																form.variations_form div.quantity input.qty,
+																																																																form.variations_form div.quantity input.plus {
 		height: 60px !important;
 	}
 	
@@ -422,9 +422,9 @@
 	}
 	
 	#header-outer > div > div.cart-menu-wrap div.cart-icon-wrap,
-																																																			#top > div > div > div.col.span_3,
-																																																			#search-btn > div > a > span,
-																																																			header#top nav > ul > li > a {
+																																																																#top > div > div > div.col.span_3,
+																																																																#search-btn > div > a > span,
+																																																																header#top nav > ul > li > a {
 		-webkit-transform: skew(15deg) !important;
 		-moz-transform: skew(15deg) !important;
 		-o-transform: skew(15deg) !important;
@@ -1030,27 +1030,36 @@ input[type="button"]:hover,
 }
 
 /** Product Slider **/
-.home-product-slider #slide-248-layer-16 a,
-.home-product-slider #slide-943-layer-16 a,
-.home-product-slider #slide-942-layer-16 a,
-.home-product-slider #slide-941-layer-16 a,
-.home-product-slider #slide-940-layer-16 a {
+.home-product-slider #slide-248-layer-16 a:first-child,
+.home-product-slider #slide-943-layer-16 a:first-child,
+.home-product-slider #slide-942-layer-16 a:first-child,
+.home-product-slider #slide-941-layer-16 a:first-child,
+.home-product-slider #slide-940-layer-16 a:first-child,
+.home-product-slider #slide-1328-layer-16 a:first-child {
 	display: none;
 }
 
+/*
 .home-product-slider #slide-248-layer-16 a:nth-child(4),
 .home-product-slider #slide-943-layer-16 a:nth-child(4),
 .home-product-slider #slide-942-layer-16 a:nth-child(3),
 .home-product-slider #slide-941-layer-16 a:nth-child(5),
 .home-product-slider #slide-940-layer-16 a:nth-child(2) {
 	display: inline;
+*/
+.home-product-slider .slider-goal-display a {
+	color: #fff;
 }
 
 .home-product-slider .slider-goal-display {
-	color: #1c1c1c !important;
+	color: #d50000;
 }
 
-/* temp center */
+.home-product-slider .tp-caption .rs-starring .star-rating {
+	color: #d50000 !important;
+}
+
+/* temp center 
 .home-product-slider #slide-248-layer-16 {
 	margin-left: -23px;
 }
@@ -1070,7 +1079,7 @@ input[type="button"]:hover,
 .home-product-slider #slide-943-layer-16 {
 	margin-left: -29px;
 }
-
+*/
 .row .home-product-slider   .col.section-title h2 {
 	font-size: 70px;
 	line-height: 70px;
@@ -1191,6 +1200,7 @@ input[type="button"]:hover,
 	#connect-social h2.cs-hd {
 		text-align: center !important;
 		padding-top: 0;
+		font-size: 38px;
 	}
 	
 	.home #connect-social #single-meta {
@@ -1213,7 +1223,11 @@ input[type="button"]:hover,
 	}
 	
 	.home .yikes-easy-mc-form input[type=email] {
-		width: 80%;
+		width: 100%;
+	}
+	
+	.home.ascend .container-wrap #connect-social button.yikes-easy-mc-submit-button[type="submit"] {
+		width: 100%;
 	}
 }
 
@@ -1971,6 +1985,10 @@ body.postid-1328 #about .icon4:hover {
 	font-family: gunship;
 }
 
+#mile-mobile p:first-child {
+	line-height: 1;
+}
+
 @media only screen and (max-width: 690px) {
 	body #mile-mobile.vc_row-fluid .vc_col-sm-2[class*="vc_col-sm-"] {
 		margin-left: 0;
@@ -2482,11 +2500,6 @@ body.page-id-3478 .wpb_column.instance-25:hover h1 > span:nth-child(2) {
 	margin-top: 4px;
 }
 
-/**** Test Rev ***/
-body.page-id-4090 #ajax-content-wrap {
-	margin-top: -63px;
-}
-
 /*** HVR calls ***/
 /* 2D TRANSITIONS */
 /* Hang */
@@ -2832,4 +2845,20 @@ body.page-id-4090 #ajax-content-wrap {
 #product-248 > div.related.products > ul > li.post-940.product,
 #product-248 > div.related.products > ul > li.post-941.product {
 	display: none;
+}
+
+/**** Test Rev ***/
+/* full slider screen compensation*/
+/*
+body.page-id-4090 #ajax-content-wrap {
+	margin-top: -63px;
+}
+*/
+.page-id-4090.ascend,
+.page-id-4090.ascend .container-wrap {
+	background-color: #1c1c1c;
+}
+
+.page-id-4090 .home-product-slider.wpb_row .row-bg {
+	background-size: contain;
 }
