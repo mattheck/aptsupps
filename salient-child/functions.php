@@ -47,8 +47,7 @@ function get_subcategory_terms( $terms, $taxonomies, $args ) {
 
 function wpse_allowedtags() {
     // Add custom tags to this string
-    //    return '<script>,<style>,<br>,<em>,<i>,<ul>,<ol>,<li>,<a>,<p>,<img>,<video>,<audio>'; 
-                return '<ul>,<ol>,<li>,<a>,<p>'; 
+        return '<script>,<style>,<br>,<em>,<i>,<ul>,<ol>,<li>,<a>,<p>,<img>,<video>,<audio>'; 
     }
 
 if ( ! function_exists( 'wpse_custom_wp_trim_excerpt' ) ) : 
