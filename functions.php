@@ -45,7 +45,11 @@ function get_subcategory_terms( $terms, $taxonomies, $args ) {
   return $terms;
 }
 
+
 //remove wptexturize filter from woocommerce short description
 remove_filter( 'woocommerce_short_description', 'wptexturize' );
+remove_filter( 'woocommerce_short_description', 'convert_chars' );
+remove_filter( 'woocommerce_template_single_excerpt', 'wptexturize' );
+remove_filter( 'woocommerce_template_single_excerpt', 'convert_chars' );
 
 ?>
