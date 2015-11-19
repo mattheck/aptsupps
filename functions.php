@@ -47,9 +47,18 @@ function get_subcategory_terms( $terms, $taxonomies, $args ) {
 
 
 //remove wptexturize filter from woocommerce short description
-remove_filter( 'woocommerce_short_description', 'wptexturize' );
-remove_filter( 'woocommerce_short_description', 'convert_chars' );
-remove_filter( 'woocommerce_template_single_excerpt', 'wptexturize' );
-remove_filter( 'woocommerce_template_single_excerpt', 'convert_chars' );
+
+remove_filter( 'woocommerce_template_single_excerpt', 'wptexturize', 100 );
+remove_filter( 'woocommerce_template_single_excerpt', 'convert_chars', 100 );
+remove_filter( 'woocommerce_template_single_excerpt', 'convert_smilies', 100 );
+remove_filter( 'woocommerce_template_single_excerpt', 'wpautop', 100 );
+
+remove_filter( 'woocommerce_short_description', 'wptexturize', 100 );
+remove_filter( 'woocommerce_short_description', 'convert_smilies', 100 );
+remove_filter( 'woocommerce_short_description', 'convert_chars', 100 );
+remove_filter( 'woocommerce_short_description', 'wpautop', 100 );
+remove_filter( 'woocommerce_short_description', 'shortcode_unautop', 100 );
+remove_filter( 'woocommerce_short_description', 'prepend_attachment', 100 );
+remove_filter( 'woocommerce_short_description', 'do_shortcode', 11 ); // AFTER wpautop()
 
 ?>
