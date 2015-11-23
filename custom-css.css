@@ -30,8 +30,8 @@
 	}
 	
 	#home-choose-goal,
-																																																																																																												.home-page-tab-wrap,
-																																																																																																												.home-page-slider {
+																																																																																																																					.home-page-tab-wrap,
+																																																																																																																					.home-page-slider {
 		display: none !important;
 	}
 	
@@ -97,8 +97,8 @@
 	}
 	
 	form.variations_form div.quantity input.minus,
-																																																																																																												form.variations_form div.quantity input.qty,
-																																																																																																												form.variations_form div.quantity input.plus {
+																																																																																																																					form.variations_form div.quantity input.qty,
+																																																																																																																					form.variations_form div.quantity input.plus {
 		height: 60px !important;
 	}
 	
@@ -303,8 +303,8 @@
 
 @media only screen and (min-width: 401px) {
 	.woocommerce div.product form.variations_form,
-																																																																																																													.woocommerce div.product form.cart::after, 
-																																																																																																													.woocommerce div.product form.cart::before {
+																																																																																																																						.woocommerce div.product form.cart::after, 
+																																																																																																																						.woocommerce div.product form.cart::before {
 		display: inline-flex !important;
 		margin-bottom: 0 !important;
 	}
@@ -315,7 +315,7 @@
 	}
 	
 	.creatine-illustration-left,
-																																																																																																												.creatine-illustration-right {
+																																																																																																																					.creatine-illustration-right {
 		width: 47% !important;
 	}
 	
@@ -386,8 +386,8 @@
 	}
 	
 	form.variations_form div.quantity input.minus,
-																																																																																																												form.variations_form div.quantity input.qty,
-																																																																																																												form.variations_form div.quantity input.plus {
+																																																																																																																					form.variations_form div.quantity input.qty,
+																																																																																																																					form.variations_form div.quantity input.plus {
 		height: 60px !important;
 	}
 	
@@ -434,9 +434,9 @@
 	}
 	
 	#header-outer > div > div.cart-menu-wrap div.cart-icon-wrap,
-																																																																																																												#top > div > div > div.col.span_3,
-																																																																																																												#search-btn > div > a > span,
-																																																																																																												header#top nav > ul > li > a {
+																																																																																																																					#top > div > div > div.col.span_3,
+																																																																																																																					#search-btn > div > a > span,
+																																																																																																																					header#top nav > ul > li > a {
 		-webkit-transform: skew(15deg) !important;
 		-moz-transform: skew(15deg) !important;
 		-o-transform: skew(15deg) !important;
@@ -646,7 +646,7 @@
 	}
 	
 	.single-product-summary .woocommerce-product-rating,
-																												.woocommerce.single-product #single-meta {
+																																					.woocommerce.single-product #single-meta {
 		display: none !important;
 	}
 	
@@ -958,6 +958,44 @@ body #header-outer .widget_shopping_cart .cart_list li:hover a,
 	margin-bottom: 0;
 }
 
+.fbook-icon .fa,
+		.twit-icon .fa {
+	font-size: 20px;
+}
+
+#menu-item-717 {
+	border-left: 1px solid #1A1A1A !important;
+	padding-left: 17px;
+	margin-left: 12px;
+}
+
+/* ascend copy */
+#header-outer .cart-menu-wrap {
+	right: 0 !important;
+}
+
+#header-outer[data-full-width="true"] header#top nav > ul.product_added.buttons {
+	padding-right: 80px !important;
+}
+
+/*
+#header-outer .cart-menu .cart-icon-wrap {
+	width: 53px !important;
+}
+*/
+#header-outer .cart-menu {
+	background-color: transparent !important;
+	padding-left: 29px !important;
+}
+
+#menu-item-717 {
+	border-left: 0 !important;
+}
+
+#header-outer > div > div.cart-menu-wrap > div, #search-btn > div > a {
+	border-left: 0 !important;
+}
+
 /* cc slant end */
 header#top .sf-menu li ul li ul li a {
 	background-color: #990000 !important;
@@ -998,17 +1036,6 @@ header#top nav > ul > li > ul > li > a,
 }
 
 /* End Port Home*/
-.fbook-icon .fa,
-		.twit-icon .fa {
-	font-size: 20px;
-}
-
-#menu-item-717 {
-	border-left: 1px solid #1A1A1A !important;
-	padding-left: 17px;
-	margin-left: 12px;
-}
-
 .single-product #ajax-content-wrap {
 	margin-top: -18px;
 }
@@ -1796,7 +1823,7 @@ ul.expect-list li {
 }
 
 div.variations_button > button {
-	border-radius: 5px !important;
+	border-radius: 0 !important;
 }
 
 /** Product Expectations (.creatine-expect) **/
