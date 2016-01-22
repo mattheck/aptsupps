@@ -189,6 +189,19 @@ if($sideWidgetArea == '1') { ?>
 
 <?php if(!empty($options['google-analytics'])) echo $options['google-analytics']; ?> 
 
+<!--//Ajax add to cart fix-->
+<script>
+jQuery( function( $ ) {
+
+$(document).on('click','.single-product-summary .single_add_to_cart_button', function(){
+	var productToAdd_ajax = $(this).parents('.single-product-summary').find('.product_title').text();
+	//alert(productToAdd_ajax);
+	$('#header-outer .cart-notification span.item-name').html(productToAdd_ajax);
+
+});
+});
+</script>
+
 <?php wp_footer(); ?>	
 
 

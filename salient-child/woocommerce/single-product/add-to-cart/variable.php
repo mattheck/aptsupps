@@ -69,6 +69,4 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 	<?php do_action( 'woocommerce_after_variations_form' ); ?>
 </form>
 
-<p class="superset-five">*$24.99 - $5 APTSUPPS5 Coupon = $19.99 Limited Time Offer price</p>
-<p class="bcaa-five">*$18.99 - $5 APTSUPPS5 Coupon = $13.99 Limited Time Offer price</p>
 <?php do_action( 'woocommerce_after_add_to_cart_form' ); ?>

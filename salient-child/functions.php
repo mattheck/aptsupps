@@ -1,8 +1,9 @@
 <?php 
 
-add_action( 'wp_enqueue_scripts', 'salient_child_enqueue_styles',50);
+
+add_action( 'wp_enqueue_scripts', 'salient_child_enqueue_styles');
 function salient_child_enqueue_styles() {
-    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css', array('font-awesome'));
 }
 
 #-----------------------------------------------------------------#
@@ -44,62 +45,25 @@ function get_subcategory_terms( $terms, $taxonomies, $args ) {
 
   return $terms;
 }
-/*
-if ( ! function_exists( 'woocommerce_template_single_excerpt' ) ) {
 
-     /**
-      * Output the product short description (excerpt).
-      *
-      * @subpackage  Product
-      *//*
-     function woocommerce_template_single_excerpt() {
-         wc_get_template( 'single-product/short-description.php' );
-     }
- }
 
-if ( ! function_exists( 'wpse_custom_wp_trim_excerpt' ) ) : 
 
-    function wpse_custom_wp_trim_excerpt($wpse_excerpt) {
-    $raw_excerpt = $wpse_excerpt;
-        if ( '' == $wpse_excerpt ) {
+/**
+ * Media - set default image link location to 'None' 
+ */
 
-            $wpse_excerpt = get_the_content('');
-            $wpse_excerpt = strip_shortcodes( $wpse_excerpt );
-            $wpse_excerpt = apply_filters('the_content', $wpse_excerpt);
-          
-            $wpse_excerpt = trim(force_balance_tags($excerptOutput));
-               
-            return $wpse_excerpt;   
+update_option('image_default_link_type','none');
 
-        }
-        return apply_filters('wpse_custom_wp_trim_excerpt', $wpse_excerpt, $raw_excerpt);
-    }
+/**
+ * Always Show Kitchen Sink in WYSIWYG Editor
+ */
 
-endif; 
-
-remove_filter('get_the_excerpt', 'wp_trim_excerpt');
-add_filter('get_the_excerpt', 'wpse_custom_wp_trim_excerpt'); 
-*/
-function wp_trim_excerpt($text) { // Fakes an excerpt if needed
-  global $post;
-  if ( '' == $text ) {
-    $text = get_the_content('');
-    $text = apply_filters('the_content', $text);
-    $text = str_replace('\]\]\>', ']]&gt;', $text);
-    $text = strip_tags($text, '<p>' , '<li>' , '<ul>');
-    $excerpt_length = 55;
-    $words = explode(' ', $text, $excerpt_length + 1);
-    if (count($words)> $excerpt_length) {
-      array_pop($words);
-      array_push($words, '[...]');
-      $text = implode(' ', $words);
-    }
-  }
-return $text;
+function unhide_kitchensink( $args ) {
+  $args['wordpress_adv_hidden'] = false;
+  return $args;
 }
 
-remove_filter('get_the_excerpt', 'wp_trim_excerpt');
-add_filter('get_the_excerpt', 'improved_trim_excerpt');
+add_filter( 'tiny_mce_before_init', 'unhide_kitchensink' );
 
 
 ?>
